@@ -1,0 +1,8 @@
+.container{
+    width:100px;
+    .item{
+        width:$size;
+        height:$size;
+        background:pink;
+    }
+}
