@@ -1,1 +1,2 @@
 # SASS_TEST
+SASS 기초다지기
