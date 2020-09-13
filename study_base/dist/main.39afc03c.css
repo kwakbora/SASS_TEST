@@ -1,0 +1,10 @@
+.container {
+  width: 100px; }
+  .container .item {
+    width: 150px;
+    height: 120px;
+    background: pink;
+    border: 1px solid #000; }
+
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
