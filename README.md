@@ -126,3 +126,25 @@ $ parcel build index.html
 
 `dist/`에서 컴파일된 Sass 파일을 볼 수 있고,
 별도의 포트 번호를 설정하지 않았다면 `http://localhost:1234`에 접속하여 적용 상태를 확인할 수 있습니다.
+
+## Parcel 을 이용하여 컴파일 해보기
+VS code 에서 index.html & main.scss 파일을 만들고 터미널로 이동하여 패키지를 만들어 줍니다.
+
+```bash
+npm init -y
+```
+
+```bash
+npm install --save-dev parcel-bundler
+```
+
+parcel-bundler를 설치한다. package.json 에서 살펴보면 parcel-bundler 가 설치된걸 확인할 수 있다.
+
+이제 parcel 를 사용할 수 있게 되었다. 전역의 parcel로 동작시키려면 아래와 같이 입력한다.
+
+```bash
+npx parcel index.html
+```
+
+사용할 모듈들이 설치가 되고 localhost 주소가 뜨고 sass를 사용할 수 있게 된다.
+
