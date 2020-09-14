@@ -99,7 +99,7 @@ $ gulp sass:watch
 
 웹 애플리케이션 번들러 [Parcel](https://parceljs.org/)은 굉장히 단순하게 컴파일할 수 있습니다.
 
-우선 Parcel를 전역으로 설치합니다.
+우선 Parcel를 전역으로 설치합니다. (node.js 가 깔려있다는 전제)
 
 ```bash
 $ npm install -g parcel-bundler
